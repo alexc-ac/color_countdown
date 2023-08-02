@@ -1,10 +1,16 @@
 # color_countdown
----
+
 Countdown script for linux terminal with counter changing color from white to red.
 Written in python as a simple script.
 Idea taken from https://github.com/antonmedv/countdown with added text coloring over time and the ability to configure colors.
-        
-### Prerequisites
+
+<p align="center">
+  <br>
+  <img src="countdown.gif" width="600" alt="Demo GIF">
+  <br>
+</p>
+
+### Prerequisites 
 Requires python 3.x installed. The only libraries used are sys, time, curses, which are installed by default with python 3 on typical systems (at least they are for me :smile: ).
  
 ## Install
