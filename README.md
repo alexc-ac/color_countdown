@@ -19,19 +19,19 @@ Optionally, you can give color_countdown.py a executable attribute
 ``` chmod u+x color_countdown.py ```
 
 ## Run
-To run in terminal go to the directory of your choice and type ``./color_countdown <TIME>`` e.g.
+To run in terminal go to the directory of your choice and type ``./color_countdown.py <TIME>`` e.g.
 
-```./color_countdown 10 ```
+```./color_countdown.py 10 ```
 
 or (if you didn't give executable attribute)
 
-``` python3 color_countdown 10 ```
+``` python3 color_countdown.py 10 ```
 
 To stop just press ESC, Q key or Ctrl-C.
 If countdown ends with end of time it returns exit code 0, otherwise another value. 
 So you can conditionally run any program at te end e.g.
 
-```./color_countdown 10 && sl```
+```./color_countdown.py 10 && sl```
 
 Running the script without options displays a hint on how to use it.
 
